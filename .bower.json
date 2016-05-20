@@ -1,0 +1,59 @@
+{
+  "name": "parsleyjs-validators",
+  "version": "0.0.4",
+  "authors": [
+    "Bruno Wego <brunowego@gmail.com>"
+  ],
+  "description": "Set of validators for Parsley library.",
+  "main": [
+    "./dist/cnpj.js",
+    "./dist/cpf.js",
+    "./dist/date.js",
+    "./dist/file.js",
+    "./dist/ge.js",
+    "./dist/gt.js",
+    "./dist/hexcolor.js",
+    "./dist/isadult.js",
+    "./dist/le.js",
+    "./dist/lt.js",
+    "./dist/notequalto.js",
+    "./dist/time.js"
+  ],
+  "keywords": [
+    "parsley",
+    "validators",
+    "simple",
+    "lightweight"
+  ],
+  "license": "MIT",
+  "homepage": "http://brunowego.github.io/parsleyjs-validators/",
+  "ignore": [
+    "**/.*",
+    "grunt",
+    "src",
+    "test"
+  ],
+  "dependencies": {
+    "parsleyjs": "~2.0.7"
+  },
+  "devDependencies": {
+    "bootstrap-sass-official": "~3.3.3",
+    "modernizr": "~2.8.3",
+    "jQuery-Mask-Plugin": "~1.11.4",
+    "parsleyjs-bootstrap3": "*",
+    "parsleyjs-validators": "master",
+    "github-fork-ribbon-css": "~0.1.1",
+    "font-awesome": "~4.3.0",
+    "sass-utilities": "~0.0.7",
+    "assemble-syntax": "master"
+  },
+  "_release": "0.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.4",
+    "commit": "81a0f2b1afa6a43996ab2325ad9d6b6f12e485bc"
+  },
+  "_source": "git://github.com/brunowego/parsleyjs-validators.git",
+  "_target": "~0.0.4",
+  "_originalSource": "parsleyjs-validators"
+}
