@@ -2,7 +2,7 @@
 	'use strict';
 
 	// Check if the date of birth entered >= value
-	window.ParsleyValidator.addValidator('isadult',
+	window.Parsley.addValidator('isadult',
 			function (value, requirement) {
 				var birthday = value,
 					validDate = value.match(/(0?[1-9]|[12][0-9]|3[01])\/(0?[1-9]|1[012])\/((19|20)\d\d)/g),

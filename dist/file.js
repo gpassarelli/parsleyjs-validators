@@ -2,7 +2,7 @@
   'use strict';
 
   // Validate xml extension.
-  window.ParsleyValidator.addValidator('filetype',
+  window.Parsley.addValidator('filetype',
       function (value, requirement) {
         var ext = value.split('.').pop().toLowerCase();
 

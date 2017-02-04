@@ -2,7 +2,7 @@
 	'use strict';
 
 	// Check if value is a valid hex color
-	window.ParsleyValidator.addValidator('hexcolor',
+	window.Parsley.addValidator('hexcolor',
 			function (value) {
 				var hexcolor = value,
 					regex = /^(#){1}([a-fA-F0-9]){6}$/;

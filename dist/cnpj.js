@@ -2,7 +2,7 @@
 	'use strict';
 
 	//
-	window.ParsleyValidator.addValidator('cnpj',
+	window.Parsley.addValidator('cnpj',
 			function (value) {
 				var b = [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2],
 					c = value.replace(/[^\d]/g, ''),

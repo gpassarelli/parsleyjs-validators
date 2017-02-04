@@ -2,7 +2,7 @@
 	'use strict';
 
 	// Check if the time is HH:MM
-	window.ParsleyValidator.addValidator('time',
+	window.Parsley.addValidator('time',
 			function (value) {
 				var time = value,
             regex = /^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$/;

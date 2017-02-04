@@ -2,7 +2,7 @@
   'use strict';
 
   //
-  window.ParsleyValidator.addValidator('cpf',
+  window.Parsley.addValidator('cpf',
       function (value) {
         var cpf = value.replace(/[^\d]+/g, '');
 
