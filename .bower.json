@@ -1,6 +1,6 @@
 {
   "name": "parsleyjs-validators",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "authors": [
     "Bruno Wego <brunowego@gmail.com>"
   ],
@@ -10,13 +10,8 @@
     "./dist/cpf.js",
     "./dist/date.js",
     "./dist/file.js",
-    "./dist/ge.js",
-    "./dist/gt.js",
     "./dist/hexcolor.js",
     "./dist/isadult.js",
-    "./dist/le.js",
-    "./dist/lt.js",
-    "./dist/notequalto.js",
     "./dist/time.js"
   ],
   "keywords": [
