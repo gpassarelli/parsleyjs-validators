@@ -1,6 +1,6 @@
 {
   "name": "parsleyjs-validators",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Set of validators for Parsley library.",
   "repository": {
     "type": "git",
